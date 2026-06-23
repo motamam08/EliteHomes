@@ -1,0 +1,61 @@
+/* sm */
+@media screen and (min-width: 576px) {
+  .container {
+    max-width: 40rem;
+  }
+}
+/* md */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 48rem;
+  }
+  #testimonials {
+    .carousel-control-next,
+    .carousel-control-prev {
+      display: flex;
+    }
+    .client-card{
+      max-width: 80%;
+    }
+   
+  }
+}
+/* lg */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 64rem;
+  }
+  .navbar {
+    box-shadow:
+      0 4px 6px -1px #0000001a,
+      0 2px 4px -2px #0000001a;
+  }
+  .container .desktop-links {
+    display: flex !important;
+  }
+  .navbar .nav-item:not(:last-child) {
+    margin-inline-end: 32px !important;
+  }
+  .mobile-menu {
+    visibility: hidden;
+  }
+  #hero {
+    padding-top: 5rem;
+    padding-bottom: 0;
+  }
+}
+/* xl */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+/* xxl */
+@media screen and (min-width: 96rem) {
+  .container {
+    max-width: 96rem;
+  }
+  .tabs-container {
+    max-width: 1152px;
+  }
+}
