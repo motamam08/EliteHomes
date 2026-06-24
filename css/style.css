@@ -164,7 +164,7 @@ body {
 .gray-1 {
   color: var(--gray-1) !important;
 }
-.gray-2{
+.gray-2 {
   color: #6a7282;
 }
 .violet-color-2 {
@@ -472,10 +472,13 @@ body {
     }
     .tour {
       padding: 0.5rem;
-      background-color: var(--muted-white);
+      background-color: #ede9fe;
       color: var(--violet-color-2);
       font-size: 14px;
       font-weight: 500;
+      &:hover {
+        background-color: var(--muted-white);
+      }
     }
   }
 }
@@ -785,12 +788,12 @@ body {
           color: #364153;
         }
       }
-      button{
+      button {
         padding: 16px 32px;
-        background-color: #9117FB;
+        background-color: #9117fb;
         color: #fff;
         transition: transform 0.3s;
-        &:hover{
+        &:hover {
           transform: translateY(-4px);
         }
       }
@@ -798,66 +801,64 @@ body {
   }
 }
 
+.big-circle-top {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background: rgba(181, 153, 255, 0.12);
 
-  .big-circle-top{
-    position: absolute;
-    width: 480px;
-    height: 480px;
-    border-radius: 50%;
-    background: rgba(181, 153, 255, .12);
-
-    top: -250px;
-    right: -250px;
+  top: -250px;
+  right: -250px;
 }
 
-.small-circle-top{
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    border: 5px solid rgba(181, 153, 255, .35);
+.small-circle-top {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 5px solid rgba(181, 153, 255, 0.35);
 
-    top: 100px;
-    right: 100px;
+  top: 100px;
+  right: 100px;
 }
 
+.big-circle-bottom {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: rgba(174, 128, 230, 0.15);
 
-.big-circle-bottom{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    border-radius: 50%;
-    background: rgba(174, 128, 230, 0.15);
-    
-    left: -200px;
-    bottom: -200px;
+  left: -200px;
+  bottom: -200px;
 }
-.small-circle{
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    border: 5px solid rgba(174, 128, 230, 0.4);
+.small-circle {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 5px solid rgba(174, 128, 230, 0.4);
 
-    top: 0px;
-    left: 75%;
+  top: 0px;
+  left: 75%;
 }
 /* ***********footer************ */
-footer{
+footer {
   padding-block: 3rem;
-  background-color: #56178F;
-  .border-gray{
+  background-color: #56178f;
+  .border-gray {
     border-color: #ffffff1a !important;
     margin-bottom: 24px;
   }
-  .foot-icon{
+  .foot-icon {
     width: 40px;
     height: 40px;
     background-color: #ffffff1a;
     transition: all 0.3s;
-    &:hover{
+    &:hover {
       transform: scale(1.1);
-      background-color: #7F22FE;
+      background-color: #7f22fe;
       cursor: pointer;
     }
   }
